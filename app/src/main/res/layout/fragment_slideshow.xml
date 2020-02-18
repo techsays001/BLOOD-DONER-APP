@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+    <ScrollView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="892dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="79dp"
+                    android:layout_height="101dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="55dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.511"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.123"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="2dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/nname"
+                    android:layout_width="359dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/red"
+                    android:drawableStart="@drawable/username"
+                    android:drawableLeft="@drawable/username"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Phone"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/nph"
+                    android:layout_width="359dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+
+                    android:backgroundTint="@color/red"
+                    android:drawableLeft="@drawable/phone"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Blood Group"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/nblood"
+                    android:layout_width="360dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/red"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:maxLength="10"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="City"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ncity"
+                    android:layout_width="362dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/red"
+                    android:drawableStart="@drawable/place"
+                    android:drawableLeft="@drawable/place"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:hint="doubel Tap to Find Curent City"
+                    android:inputType="textMultiLine"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/nbt"
+                    android:layout_width="207dp"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@drawable/btn"
+                    android:fontFamily="@font/roboto"
+                    android:text="Sudmit"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

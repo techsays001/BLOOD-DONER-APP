@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="434dp"
+
+        android:layout_height="139dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="143dp"
+            android:background="@drawable/btn">
+
+
+            <TextView
+                android:id="@+id/onname"
+                android:layout_width="178dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.04" />
+
+            <TextView
+                android:id="@+id/oncity"
+                android:layout_width="178dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.622" />
+
+            <TextView
+                android:id="@+id/onblood"
+                android:layout_width="77dp"
+                android:layout_height="42dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/red"
+                android:textColorHint="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.778"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.069" />
+
+            <TextView
+                android:id="@+id/ondate"
+                android:layout_width="203dp"
+                android:layout_height="47dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.93"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.635" />
+
+            <TextView
+                android:id="@+id/chlo"
+                android:layout_width="500dp"
+                android:layout_height="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:background="@color/white"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.969" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
