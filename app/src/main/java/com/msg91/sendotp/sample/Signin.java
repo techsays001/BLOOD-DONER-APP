@@ -236,7 +236,7 @@ public class Signin extends AppCompatActivity {
 
                 } else {
 
-                    Toast.makeText(Signin.this, "Permission Canceled, Now your application cannot access CAMERA.", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(Signin.this, "Permission Canceled, Now your application cannot access CAMERA.", Toast.LENGTH_LONG).show();
 
                 }
                 break;
