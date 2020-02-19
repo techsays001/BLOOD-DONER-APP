@@ -1,11 +1,18 @@
 package com.msg91.sendotp.sample;
 
 import android.Manifest;
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -34,7 +41,7 @@ import java.util.Map;
 import java.util.Objects;
 public class Signin extends AppCompatActivity {
     TextView signin,admin_btn,fpass;
-    Button login;
+    Button login,button;
     EditText uph,passok;
     String a,b,c,d,e,f,g;
     private boolean loggedIn = false;
@@ -47,6 +54,7 @@ public class Signin extends AppCompatActivity {
         EnableRuntimePermission();
         signin = findViewById(R.id.signin);
         login = findViewById(R.id.login);
+     
         uph = findViewById(R.id.dw);
         check=findViewById(R.id.checkBox);
         passok=findViewById(R.id.passok);
@@ -59,6 +67,8 @@ public class Signin extends AppCompatActivity {
             // Snackbar.make(v,"Enter emergency number",Snackbar.LENGTH_SHORT).show();
 
         }
+
+
         fpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -241,7 +251,6 @@ public class Signin extends AppCompatActivity {
                 }
                 break;
         }}
-
 
 
 

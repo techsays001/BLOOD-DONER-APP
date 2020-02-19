@@ -72,7 +72,7 @@ public class ToolsFragment extends Fragment {
     Chequeadapter adapter;
     EditText edt;
     Button delet;
-    SharedPreferences sh;
+    SharedPreferences sh,shh;
     Location location;
     String address, city, state, country, postalCode, knownName;
     private ToolsViewModel toolsViewModel;
@@ -83,7 +83,7 @@ public class ToolsFragment extends Fragment {
                 ViewModelProviders.of(this).get(ToolsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_tools, container, false);
         loadProducts();
-
+        shh = getActivity().getSharedPreferences("locc", MODE_PRIVATE);
 
         recyclerView = root.findViewById(R.id.recylcerViewcqnear);
 
@@ -201,9 +201,9 @@ public class ToolsFragment extends Fragment {
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
 
-                //  params.put("d",dis.getSelectedItem().toString().toLowerCase());
+                //  params.put("d",dis.getSelectedItem().toString().toLo werCase());
                 //    params.put("phone", shh.getString("cph", null));
-               params.put("city",city);
+               params.put("city",shh.getString("city",null));
 
                 return params;
             }

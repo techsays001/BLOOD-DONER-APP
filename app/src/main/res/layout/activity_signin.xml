@@ -81,6 +81,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.679" />
 
+
+    Button
+        android:id="@+id/login11"
+        android:layout_width="122dp"
+        android:layout_height="36dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/roboto"
+        android:text="not"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
     <TextView
         android:id="@+id/fro"
         android:layout_width="wrap_content"
